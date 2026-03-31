@@ -2,11 +2,11 @@
 
 Backend API practice project demonstrating GitFlow workflow methodology for team-based development.
 
-## 📚 Project Overview
+## Project Overview
 
 This repository serves as a **GitFlow workflow training project** for building an e-commerce backend API. The focus is on learning proper Git branching strategies, version control best practices, and collaborative development workflows.
 
-## 🌳 GitFlow Workflow
+## GitFlow Workflow
 
 GitFlow is a branching model for Git that defines a strict branching structure designed around project releases.
 
@@ -38,7 +38,7 @@ GitFlow is a branching model for Git that defines a strict branching structure d
    - Merge to: `main` and `develop`
    - Naming: `hotfix/security-patch`
 
-## 🔄 GitFlow Commands
+## GitFlow Commands
 
 ### Initialize GitFlow
 ```bash
@@ -84,7 +84,7 @@ git commit -m "Fix SQL injection vulnerability"
 git flow hotfix finish security-patch
 ```
 
-## 🎯 E-Commerce API Features (Planned)
+## E-Commerce API Features (Planned)
 
 This project will implement a backend API for managing:
 
@@ -113,7 +113,7 @@ This project will implement a backend API for managing:
 - `DELETE /api/cart/items/:id` — Remove item from cart
 - `PUT /api/cart/items/:id` — Update item quantity
 
-## 🛠️ Tech Stack (Planned)
+## Tech Stack (Planned)
 
 - **Backend Framework:** Django REST Framework or Express.js
 - **Database:** PostgreSQL or MongoDB
@@ -121,7 +121,7 @@ This project will implement a backend API for managing:
 - **Documentation:** Swagger/OpenAPI
 - **Testing:** pytest (Django) or Jest (Node.js)
 
-## 📖 GitFlow Learning Objectives
+## GitFlow Learning Objectives
 
 By working with this repository, you will learn:
 
@@ -145,7 +145,7 @@ By working with this repository, you will learn:
    - Tagging versions
    - Hotfix workflows
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Git 2.5+ (for GitFlow support)
@@ -183,7 +183,7 @@ git flow init -d  # -d accepts defaults
 git flow feature start product-api
 ```
 
-## 📝 Workflow Example
+## Workflow Example
 
 ### Scenario: Adding User Authentication
 
@@ -223,7 +223,7 @@ git flow release finish 1.0.0
 git push origin main develop --tags
 ```
 
-## 🔗 Resources
+## Resources
 
 **GitFlow Documentation:**
 - [Original GitFlow Model](https://nvie.com/posts/a-successful-git-branching-model/) by Vincent Driessen
@@ -234,11 +234,11 @@ git push origin main develop --tags
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [Semantic Versioning](https://semver.org/)
 
-## 📄 License
+## License
 
 Educational project - MIT License
 
-## 👤 Author
+## Author
 
 Fredrick Mbithi  
 ALX Software Engineering Student
